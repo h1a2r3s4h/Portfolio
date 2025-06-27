@@ -22,13 +22,13 @@ const projects = [
   },
   {
     id: 3,
-    title: "Real-Estate",
+    title: "AI-Powered Full Stack Blog Website",
     description:
-      " Developed a dynamic real estate listing platform using React.js and Tailwind CSS, allowing users to browse, filter, and view property details interactively.",
+      " A modern, full stack blog platform powered by AI for content assistance. This project allows users to create, edit, and read blog posts with rich text editing, authentication, and AI-based features to improve writing quality.",
     image: "/projects/project3.png",
-    tags: ["React", "TailwindCSS"],
-    demoUrl: "https://sensational-croissant-42a306.netlify.app",
-    githubUrl: "https://github.com/h1a2r3s4h/Real-Estate",
+    tags: ["React.js, Tailwind CSS, Node.js, Express.js, MongoDB, Gemini API"],
+    demoUrl: "https://quick-blog-kappa-six.vercel.app",
+    githubUrl: "https://github.com/h1a2r3s4h/QUICK_BLOG",
   },
 ];
 
