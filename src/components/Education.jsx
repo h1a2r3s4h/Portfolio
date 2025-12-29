@@ -13,7 +13,7 @@ import {
 const Education = () => {
   const education = [
     {
-      institute: "Institute of Engineering and Technology",
+      institute: "Mahatma Jyotiba Phule Rohilkhand University",
       type: "Computer Science Education",
       actual_location: "Bareilly, Uttar Pradesh, India",
       location: "On-Campus",
