@@ -1,35 +1,49 @@
-# 🌐 Portfolio
+# 💼 Personal Portfolio
 
-A modern and responsive personal portfolio showcasing my skills, projects, and experience as a **Frontend Developer** exploring **Full-Stack Development**.
+A modern, responsive **developer portfolio** built with **React (Vite)** and **Tailwind CSS**, showcasing my skills, projects, experience, and certifications.
 
-🔗 Live: https://portfolio-imanchalsingh.vercel.app/
-📁 Repo: https://github.com/imanchalsingh/PORTFOLiO
-
----
-
-## 🚀 Tech Stack
-- React.js
-- JavaScript / TypeScript
-- Tailwind CSS
-- HTML & CSS
+🌐 **Live Demo:**  
+(https://portfolio-netlify-clone.netlify.app)
 
 ---
 
 ## ✨ Features
-- Responsive design
-- Smooth navigation
-- Project showcase
-- Clean UI
+
+- Responsive modern UI
+- Certificates section with fullscreen preview modal
+- Projects showcase
+- Smooth animations & clean layout
+- Fast build using Vite
+- Deployed on Netlify
 
 ---
 
-## 👩‍💻 About Me
-Hi, I’m **Anchal Singh**, a Computer Science (BCA) student and aspiring Frontend Developer with 70+ projects experience.
+## 🛠 Tech Stack
+
+- **React (Vite)**
+- **Tailwind CSS**
+- **JavaScript**
+- **Heroicons**
+- **Netlify**
 
 ---
 
-## 📬 Contact
-- GitHub: https://github.com/imanchalsingh
-- LinkedIn: https://linkedin.com/in/imanchalsingh
+## 📂 Project Structure
 
-⭐ Star the repo if you like it!
+```bash
+src/
+├── components/
+│   ├── About.jsx
+│   ├── Certificates.jsx
+│   ├── Contact.jsx
+│   ├── Education.jsx
+│   ├── Experience.jsx
+│   ├── Hero.jsx
+│   ├── Navbar.jsx
+│   ├── Projects.jsx
+│   └── Footer.jsx
+│
+├── certificates/     # Certificate images
+├── App.jsx
+├── main.jsx
+├── index.css
