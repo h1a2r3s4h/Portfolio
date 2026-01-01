@@ -4,6 +4,52 @@ import { FiArrowRight, FiMail, FiCode, FiTool, FiCpu, FiZap } from "react-icons/
 import { TbBrandNextjs, TbBrandReact, TbBrandNodejs } from "react-icons/tb";
 import { SiMongodb, SiTailwindcss } from "react-icons/si";
 
+/* ================= RESUME BUTTON (ADDED) ================= */
+const ResumeButton = () => {
+  return (
+    <>
+      <style>{`
+        @keyframes rotate {
+          100% {
+            transform: rotate(1turn);
+          }
+        }
+        .rainbow::before {
+          content: '';
+          position: absolute;
+          z-index: -2;
+          left: -50%;
+          top: -50%;
+          width: 200%;
+          height: 200%;
+          background-repeat: no-repeat;
+          background-size: 50% 30%;
+          filter: blur(6px);
+          background-image: linear-gradient(
+            90deg,
+            #bd2323,
+            #e6c235,
+            #0a295e
+          );
+          animation: rotate 4s linear infinite;
+        }
+      `}</style>
+
+      <a
+        href="/resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="rainbow relative z-0 overflow-hidden p-0.5 rounded-full hover:scale-105 transition duration-300 active:scale-100 min-w-[200px]"
+      >
+        <span className="flex items-center justify-center px-8 py-4 text-white rounded-full font-bold text-lg bg-gray-900/80 backdrop-blur">
+          RESUME
+        </span>
+      </a>
+    </>
+  );
+};
+/* ========================================================= */
+
 const Hero = () => {
   return (
     <section
@@ -88,7 +134,6 @@ const Hero = () => {
             >
               <span>EXPLORE WORK</span>
               <FiArrowRight className="group-hover:translate-x-2 transition-transform duration-300" />
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-[#bd2323] to-[#0a295e] rounded-xl blur opacity-30 group-hover:opacity-70 transition-opacity duration-300 -z-10"></div>
             </a>
 
             <a
@@ -98,11 +143,13 @@ const Hero = () => {
               <FiMail className="text-[#e6c235]" />
               <span>CONNECT NOW</span>
             </a>
+
+            {/* RESUME BUTTON (ADDED) */}
+            <ResumeButton />
           </div>
         </div>
       </div>
 
-      {/* Add custom animation keyframes to your global CSS */}
       <style jsx>{`
         @keyframes marquee {
           0% { transform: translateX(0); }
