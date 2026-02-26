@@ -9,7 +9,7 @@ https://portfolio-netlify-clone.netlify.app
 
 ## 🚀 Portfolio Preview
 
-[![Portfolio Preview](./assets/portfolio.png)](https://portfolio-netlify-clone.netlify.app)
+![Portfolio Preview](./src/assets/portfolio.png)
 
 ---
 
