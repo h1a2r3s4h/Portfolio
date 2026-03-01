@@ -41,13 +41,13 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "LMS Project",
+      title: "AI-Powered LMS (Next-Gen Learning Platform)",
       description:
-        "Developed a Learning Management System (LMS) using React.js, Vite, and Tailwind CSS, enabling user-friendly course browsing, enrollment, and content delivery.",
+        "🎓 A Full-Stack AI-Powered Learning Management System built with the MERN Stack.This project includes AI Smart Search, Google Authentication, Razorpay Payments, and dedicated Student & Instructor Dashboards.",
       image: LMS,
       tags: ["ReactJs"],
-      liveUrl: "https://jade-phoenix-56f98c.netlify.app",
-      codeUrl: "https://github.com/h1a2r3s4h/Lms-project",
+      liveUrl: "https://lms-1-rscv.onrender.com",
+      codeUrl: "https://github.com/h1a2r3s4h/LMS?tab=readme-ov-file",
       featured: true,
       accentColor: "#0a295e"
     },
