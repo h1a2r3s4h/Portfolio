@@ -11,6 +11,8 @@ import {
 import SkillForge from "./Projects/project1.png";
 import Blog from "./Projects/project2.png";
 import LMS from "./Projects/project3.png";
+import Voice from "./Projects/project4.png";
+import Chat from "./Projects/project5.png";
 
 const Projects = () => {
 
@@ -48,6 +50,30 @@ const Projects = () => {
       tags: ["ReactJs"],
       liveUrl: "https://lms-1-rscv.onrender.com",
       codeUrl: "https://github.com/h1a2r3s4h/LMS?tab=readme-ov-file",
+      featured: true,
+      accentColor: "#0a295e"
+    },
+    {
+      id: 4,
+      title: "VOX HIRE – AI Recruiter Voice Agent",
+      description:
+        "🎓 VOX HIRE is an AI-powered recruiter voice agent that can automatically create and conduct job interviews using voice technology.",
+      image: Voice,
+      tags: ["Next.js", "React", "Supabase", "Vapi AI", "Tailwind CSS"],
+      liveUrl: "https://vox-hire-voice-agent.vercel.app",
+      codeUrl: "https://github.com/h1a2r3s4h/VoxHire---Voice-agent",
+      featured: true,
+      accentColor: "#0a295e"
+    },
+    {
+      id: 5,
+      title: "DocMind – Agentic RAG Document Assistant",
+      description:
+        "🎓 AI-powered RAG chatbot that reads PDF documents and answers questions using vector search and LLMs.",
+      image: Chat,
+      tags: ["ReactJs"],
+      liveUrl: "https://github.com/h1a2r3s4h/Agentic_Rag",
+      codeUrl: "https://github.com/h1a2r3s4h/Agentic_Rag",
       featured: true,
       accentColor: "#0a295e"
     },
