@@ -13,7 +13,7 @@ import Blog from "./Projects/project2.png";
 import LMS from "./Projects/project3.png";
 import Voice from "./Projects/project4.png";
 import Chat from "./Projects/project5.png";
-
+import CLI from "./Projects/project6.gif";
 const Projects = () => {
 
   const projects = [
@@ -77,6 +77,18 @@ const Projects = () => {
       featured: true,
       accentColor: "#0a295e"
     },
+    {
+  id: 6,
+  title: "GitPal — AI Developer Teammate CLI",
+  description:
+    "🤖 An open source AI-powered CLI tool with 16 commands that automates your entire Git workflow — from writing commit messages to deploying code. Supports 4 AI providers (Groq, OpenAI, Gemini, Anthropic). Published on npm.",
+  image: CLI,
+  tags: ["Node.js", "CLI", "AI", "LLM", "npm", "Open Source"],
+  liveUrl: "https://www.npmjs.com/package/gitpal-cli",
+  codeUrl: "https://github.com/h1a2r3s4h/gitpal",
+  featured: true,
+  accentColor: "#0a295e"
+},
   ];
 
   return (
