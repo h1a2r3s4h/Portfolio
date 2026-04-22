@@ -31,30 +31,6 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "AI-Powered Full Stack Blog Website",
-      description:
-        "A modern, full stack blog platform powered by AI for content assistance. This project allows users to create, edit, and read blog posts with rich text editing, authentication, and AI-based features to improve writing quality.",
-      image: Blog,
-      tags: ["Reactjs", "Node.js", "Express", "MongoDB", "GeminiAPI"],
-      liveUrl: "https://quick-blog-livid.vercel.app",
-      codeUrl: "https://github.com/h1a2r3s4h/Quick_blog",
-      featured: true,
-      accentColor: "#bd2323"
-    },
-    {
-      id: 3,
-      title: "AI-Powered LMS (Next-Gen Learning Platform)",
-      description:
-        "🎓 A Full-Stack AI-Powered Learning Management System built with the MERN Stack.This project includes AI Smart Search, Google Authentication, Razorpay Payments, and dedicated Student & Instructor Dashboards.",
-      image: LMS,
-      tags: ["ReactJs"],
-      liveUrl: "https://lms-1-rscv.onrender.com",
-      codeUrl: "https://github.com/h1a2r3s4h/LMS?tab=readme-ov-file",
-      featured: true,
-      accentColor: "#0a295e"
-    },
-    {
-      id: 4,
       title: "VOX HIRE – AI Recruiter Voice Agent",
       description:
         "🎓 VOX HIRE is an AI-powered recruiter voice agent that can automatically create and conduct job interviews using voice technology.",
@@ -66,19 +42,7 @@ const Projects = () => {
       accentColor: "#0a295e"
     },
     {
-      id: 5,
-      title: "DocMind – Agentic RAG Document Assistant",
-      description:
-        "🎓 AI-powered RAG chatbot that reads PDF documents and answers questions using vector search and LLMs.",
-      image: Chat,
-      tags: ["ReactJs"],
-      liveUrl: "https://github.com/h1a2r3s4h/Agentic_Rag",
-      codeUrl: "https://github.com/h1a2r3s4h/Agentic_Rag",
-      featured: true,
-      accentColor: "#0a295e"
-    },
-    {
-  id: 6,
+  id: 3,
   title: "GitPal — AI Developer Teammate CLI",
   description:
     "🤖 An open source AI-powered CLI tool with 16 commands that automates your entire Git workflow — from writing commit messages to deploying code. Supports 4 AI providers (Groq, OpenAI, Gemini, Anthropic). Published on npm.",
@@ -89,6 +53,46 @@ const Projects = () => {
   featured: true,
   accentColor: "#0a295e"
 },
+
+{
+      id: 4,
+      title: "DevPilot AI",
+      description:
+        "🎓 It's a fully autonomous developer assistant powered by a pipeline of specialized agents — each with its own role, tools, and memory — working together to understand, write, execute, and review code across your entire codebase.",
+      image: Chat,
+      tags: ["Python","FastAPI backend", "Gemini LLM", "sentence-transformers embeddings", "FAISS vector DB", "CrewAI agents", "SSE streaming", "React/Streamlit UI"],
+      liveUrl: "https://github.com/h1a2r3s4h/DevPilot-Ai",
+      codeUrl: "https://github.com/h1a2r3s4h/DevPilot-Ai",
+      featured: true,
+      accentColor: "#0a295e"
+    },
+    {
+      id: 5,
+      title: "AI-Powered Full Stack Blog Website",
+      description:
+        "A modern, full stack blog platform powered by AI for content assistance. This project allows users to create, edit, and read blog posts with rich text editing, authentication, and AI-based features to improve writing quality.",
+      image: Blog,
+      tags: ["Reactjs", "Node.js", "Express", "MongoDB", "GeminiAPI"],
+      liveUrl: "https://quick-blog-livid.vercel.app",
+      codeUrl: "https://github.com/h1a2r3s4h/Quick_blog",
+      featured: true,
+      accentColor: "#bd2323"
+    },
+    {
+      id: 6,
+      title: "AI-Powered LMS (Next-Gen Learning Platform)",
+      description:
+        "🎓 A Full-Stack AI-Powered Learning Management System built with the MERN Stack.This project includes AI Smart Search, Google Authentication, Razorpay Payments, and dedicated Student & Instructor Dashboards.",
+      image: LMS,
+      tags: ["ReactJs"],
+      liveUrl: "https://lms-1-rscv.onrender.com",
+      codeUrl: "https://github.com/h1a2r3s4h/LMS?tab=readme-ov-file",
+      featured: true,
+      accentColor: "#0a295e"
+    },
+    
+    
+    
   ];
 
   return (
