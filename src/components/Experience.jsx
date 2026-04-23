@@ -19,21 +19,24 @@ const Experience = () => {
   period: "Apr 2026 - Present",
   duration: "Ongoing",
   location: "On-site",
-  description:
-    "Currently working as a MERN Stack Developer, building scalable web applications using modern technologies. Focused on developing high-performance frontend interfaces with Next.js and robust backend systems using Node.js and Express.",
-  technologies: [
-    "MongoDB",
-    "Express.js",
-    "React",
-    "Next.js",
-    "Node.js"
-  ],
-  highlights: [
-    "Full-time Role",
-    "Production Applications",
-    "Scalable Architecture",
-    "Modern Tech Stack"
-  ],
+ description:
+  "Developed a scalable e-commerce frontend using Next.js by converting Figma designs into a fully responsive and interactive user interface. Focused on building reusable components, clean architecture, and seamless user experience.",
+
+technologies: [
+  "Next.js",
+  "React.js",
+  "TypeScript",
+  "Tailwind CSS",
+  "Context API"
+],
+
+highlights: [
+  "Figma to Next.js Implementation",
+  "Dynamic Routing",
+  "Cart & Wishlist Functionality",
+  "Reusable Component Architecture",
+  "Responsive Design"
+],
   icon: <CodeBracketIcon className="h-6 w-6" />
 },
     {
