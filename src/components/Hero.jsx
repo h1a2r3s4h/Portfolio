@@ -119,7 +119,7 @@ const Hero = () => {
                 >
                   <Icon className="w-8 h-8 text-[#e6c235]" />
                   <span className="text-white font-semibold text-lg">
-                    {["React", "Next.js", "Node.js", "MongoDB", "Tailwind", "Code", "Tools", "DevOps"][index]}
+                    {["React", "Next.js", "Node.js", "MongoDB", "Tailwind", "Code", "Tools"][index]}
                   </span>
                 </div>
               ))}
