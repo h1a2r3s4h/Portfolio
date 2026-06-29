@@ -17,7 +17,7 @@ const Education = () => {
       type: "Computer Science Education",
       actual_location: "Bareilly, Uttar Pradesh, India",
       location: "On-Campus",
-      duration: "2025 - Present",
+      duration: "2023 - Present",
       grade: "Current CGPA: 7/10",
       roles: [
         {

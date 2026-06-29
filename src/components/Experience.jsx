@@ -11,34 +11,43 @@ import {
 
 const Experience = () => {
   const experiences = [
-    {
+   
+{
   id: 1,
   type: "Full-time",
   role: "MERN Stack Developer",
-  company: "Digital Monger",
-  period: "Apr 2026 - Present",
-  duration: "Ongoing",
+  company: "Digital Mongers",
+  period: "Apr 2026 - June 2026",
+  duration: "3 months",
   location: "On-site",
- description:
-  "Developed a scalable e-commerce frontend using Next.js by converting Figma designs into a fully responsive and interactive user interface. Focused on building reusable components, clean architecture, and seamless user experience.",
+  description:
+    "Developed scalable full-stack web applications using Next.js, React.js, Node.js, Express.js, and MongoDB. Built secure REST APIs, implemented authentication and authorization, optimized backend performance, and delivered responsive, production-ready user interfaces.",
 
-technologies: [
-  "Next.js",
-  "React.js",
-  "TypeScript",
-  "Tailwind CSS",
-  "Context API"
-],
+  technologies: [
+    "Next.js",
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "TypeScript",
+    "Tailwind CSS",
+    "JWT",
+    "Redis",
+    "Cloudinary",
+    "Zod"
+  ],
 
-highlights: [
-  "Figma to Next.js Implementation",
-  "Dynamic Routing",
-  "Cart & Wishlist Functionality",
-  "Reusable Component Architecture",
-  "Responsive Design"
-],
+  highlights: [
+    "JWT Authentication & RBAC",
+    "REST API Development",
+    "Redis Caching",
+    "Cloudinary Integration",
+    "Responsive UI Development"
+  ],
+
   icon: <CodeBracketIcon className="h-6 w-6" />
 },
+
     {
   id: 2,
   type: "Internship",

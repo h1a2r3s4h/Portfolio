@@ -8,26 +8,41 @@ import {
 const About = () => {
   // Tech Stack Data
   const techStack = [
-    { name: "C++" },
-    { name: "DSA" },
-    { name: "HTML5" },
-    { name: "CSS3" },
-    { name: "Tailwind CSS" },
-    { name: "JavaScript" },
-    { name: "ReactJs" },
-    { name: "TypeScript" },
-    { name: "Node.js" },
-    { name: "Express.js" },
-    { name: "MongoDB" },
-    { name: "PostgreSQL" },
-    { name: "Next.js" },
-    { name: "Redux" },
-    { name: "Git" },
-    { name: "GitHub" },
-    { name: "Docker" },
-    { name: "Python" },
-    
-  ];
+  { name: "C++" },
+  { name: "Python" },
+  { name: "JavaScript" },
+  { name: "TypeScript" },
+
+  { name: "HTML5" },
+  { name: "CSS3" },
+  { name: "Tailwind CSS" },
+  { name: "React.js" },
+  { name: "Next.js" },
+  { name: "Redux" },
+
+  { name: "Node.js" },
+  { name: "Express.js" },
+  { name: "FastAPI" },
+  { name: "REST APIs" },
+  { name: "JWT" },
+
+  { name: "MongoDB" },
+  { name: "PostgreSQL" },
+  { name: "Redis" },
+  { name: "Prisma" },
+
+  { name: "LangChain" },
+  { name: "RAG" },
+  { name: "FAISS" },
+  { name: "CrewAI" },
+
+  { name: "Docker" },
+  { name: "Git" },
+  { name: "GitHub" },
+  { name: "Vercel" },
+
+  { name: "DSA" }
+];
 
   return (
     <section id="about" className="py-24 bg-black relative overflow-hidden">
@@ -110,12 +125,11 @@ const About = () => {
                 {/* Bio */}
                 <div className="space-y-6 mb-10">
                   <p className="text-gray-300 text-lg">
-                    Third-year Computer Science student passionate about creating
+                    Fourth-year Computer Science student passionate about creating
                     impactful digital experiences using modern web technologies.
                   </p>
                   <p className="text-gray-300">
-                    Focused on full-stack development, cloud architecture, and
-                    scalable systems with clean, maintainable code.
+                  Focused on full-stack development, backend engineering, and AI-powered applications with an emphasis on scalability, performance, and clean architecture.
                   </p>
                 </div>
 
